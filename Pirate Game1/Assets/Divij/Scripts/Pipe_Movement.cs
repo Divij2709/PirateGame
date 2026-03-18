@@ -1,0 +1,14 @@
+using System;
+using UnityEngine;
+
+public class Pipe_Movement : MonoBehaviour
+{
+    [SerializeField] public float pipeMoveSpeed = 10f;
+    
+
+    public void Update()
+    {
+        transform.position += Vector3.left * pipeMoveSpeed * Time.deltaTime;
+    }
+}
+
