@@ -1,20 +1,24 @@
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class Bird_Manager : MonoBehaviour
+namespace Divij
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public class Bird_Manager : MonoBehaviour
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        // Start is called once before the first execution of Update after the MonoBehaviour is created
+        void Start()
+        {
+            
+        }
+    
+        // Update is called once per frame
+        void Update()
+        {
+            
+        }
     }
 }
+
 
 
 // Use an OnTrigger to  trigger the parrots death and respawn 

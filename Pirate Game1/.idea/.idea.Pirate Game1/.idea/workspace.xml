@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bca50913-b261-4291-a0d5-34be40230ab9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pirate Game1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pirate Game1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Scripts/Bird_Manager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Divij/Scripts/Bird_Manager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Scripts/Buff_Token.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Divij/Scripts/Buff_Token.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Scripts/Fly_Behaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Divij/Scripts/Fly_Behaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Scripts/Pipe_Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Divij/Scripts/Pipe_Movement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/D_Test_Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/D_Test_Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/BuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/BuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +23,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Divij/Scripts/Bird_Manager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Divij/Scripts/Buff_Token.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Divij/Scripts/IToken.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 0
@@ -99,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1773875571665</updated>
-      <workItem from="1773875575695" duration="4932000" />
+      <workItem from="1773875575695" duration="7479000" />
     </task>
     <servers />
   </component>

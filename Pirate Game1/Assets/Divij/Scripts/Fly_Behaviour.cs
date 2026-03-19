@@ -2,23 +2,32 @@ using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Fly_Behaviour : MonoBehaviour
+namespace Divij
 {
-    [SerializeField] public float flySpeed = 2f;
-
-    private Rigidbody2D rb;
-
-    public void Start()
+    public class Fly_Behaviour : MonoBehaviour
     {
-        rb = GetComponent<Rigidbody2D>();
-    }
-
-    public void Update()
-    {
-        if (Mouse.current.leftButton.wasPressedThisFrame)
+        [SerializeField] public float flySpeed = 2f;
+    
+        private Rigidbody2D rb;
+    
+        public void Start()
         {
-            Debug.Log("Mouse Pressed");
-            rb.linearVelocity = Vector2.up * flySpeed;
+            rb = GetComponent<Rigidbody2D>();
+        }
+    
+        public void Update()
+        {
+            if (Mouse.current.leftButton.wasPressedThisFrame)
+            {
+                Debug.Log("Mouse Pressed");
+                rb.linearVelocity = Vector2.up * flySpeed;
+            }
         }
     }
 }
+
+/*
+ Might move t bird manager for SRP (Dont know if uts necessary cause theyre still managing seperate things) 
+ -> Would like to add the birds animation such that on mouse press the animation triggers. (Need to read up more on animation transitions)
+
+*/

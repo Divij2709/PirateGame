@@ -1,14 +1,18 @@
 using System;
 using UnityEngine;
 
-public class Pipe_Movement : MonoBehaviour
+namespace Divij
 {
-    [SerializeField] public float pipeMoveSpeed = 10f;
-    
-
-    public void Update()
+    public class Pipe_Movement : MonoBehaviour
     {
-        transform.position += Vector3.left * pipeMoveSpeed * Time.deltaTime;
+        [SerializeField] public float pipeMoveSpeed = 10f;
+        
+    
+        public void Update()
+        {
+            transform.position += Vector3.left * pipeMoveSpeed * Time.deltaTime;
+        }
     }
 }
+
 

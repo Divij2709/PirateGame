@@ -1,19 +1,28 @@
 using UnityEngine;
 
-public class Buff_Token : MonoBehaviour
+namespace Divij
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public class Buff_Token : MonoBehaviour, IToken
     {
-        
-    }
+        // Start is called once before the first execution of Update after the MonoBehaviour is created
+        void Start()
+        {
+            
+        }
+    
+        // Update is called once per frame
+        void Update()
+        {
+            
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        public void Interact()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
+
 
 /*
  * Could use layers and simply move the bird forward a layer so it moves over the pillars and nests
