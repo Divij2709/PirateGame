@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -5,16 +7,58 @@ namespace Divij
 {
     public class Bird_Manager : MonoBehaviour
     {
-        // Start is called once before the first execution of Update after the MonoBehaviour is created
-        void Start()
+        [SerializeField] public GameObject playerPrefab;
+        [SerializeField] public Transform spawnPoint;
+
+        [SerializeField] public int liveCount = 3;
+
+        [SerializeField] private List<GameObject> lifeIcons = new List<GameObject>();
+
+        private GameObject currentPlayer;
+
+        private void Start()
         {
-            
+            SpawnPlayer();
+            UpdateLivesUI();
         }
-    
-        // Update is called once per frame
-        void Update()
+
+        public void PlayerDied()
         {
-            
+            Destroy(currentPlayer);
+
+            liveCount--;
+
+            UpdateLivesUI();
+
+            if (liveCount > 0)
+            {
+                Invoke(nameof(SpawnPlayer), 1f);
+            }
+            else
+            {
+                Debug.Log("Game Over :(");
+
+                //Put an event here in the future that shows a death screen and send them to the lobby 
+
+            }
+        }
+
+        public void SpawnPlayer()
+        {
+            currentPlayer = Instantiate(playerPrefab, spawnPoint.position, Quaternion.identity);
+        }
+
+        void UpdateLivesUI()
+        {
+            for (int i = 0; i < lifeIcons.Count; i++)
+            {
+                lifeIcons[i].SetActive(i < liveCount);
+            }
+        }
+
+        public void UpdateRespawnPoint(Transform newPoint)
+        {
+            spawnPoint = newPoint;
         }
     }
 }

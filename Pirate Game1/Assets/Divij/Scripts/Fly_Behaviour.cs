@@ -23,6 +23,15 @@ namespace Divij
                 rb.linearVelocity = Vector2.up * flySpeed;
             }
         }
+
+        public void OnTriggerEnter2D(Collider2D collision)
+        {
+            if (collision.CompareTag("Pipe"))
+            {
+                //FindObjectsByType<Bird_Manager>().PlayerDied();
+                Debug.Log("Death");
+            }
+        }
     }
 }
 

@@ -18,7 +18,7 @@ namespace Divij
 
         public void Interact()
         {
-            throw new System.NotImplementedException();
+            Debug.Log("Pretend he did something");
         }
     }
 }
