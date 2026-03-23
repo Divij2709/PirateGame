@@ -130,6 +130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flySpeed: 5
+  manager: {fileID: 0}
 --- !u!61 &7141415166596336621
 BoxCollider2D:
   m_ObjectHideFlags: 0

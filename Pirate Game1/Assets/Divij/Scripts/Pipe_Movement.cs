@@ -10,6 +10,8 @@ namespace Divij
     
         public void Update()
         {
+            if (!GameManager.gameStarted) return;
+            
             transform.position += Vector3.left * pipeMoveSpeed * Time.deltaTime;
         }
     }

@@ -9,15 +9,20 @@ namespace Divij
         [SerializeField] public float flySpeed = 2f;
     
         private Rigidbody2D rb;
+
+         Bird_Manager manager;
     
         public void Start()
         {
             rb = GetComponent<Rigidbody2D>();
+            manager = FindObjectOfType<Bird_Manager>();
         }
     
         public void Update()
         {
-            if (Mouse.current.leftButton.wasPressedThisFrame)
+            if (!GameManager.gameStarted) return;
+            
+            if (Mouse.current.rightButton.wasPressedThisFrame)
             {
                 Debug.Log("Mouse Pressed");
                 rb.linearVelocity = Vector2.up * flySpeed;
@@ -28,7 +33,7 @@ namespace Divij
         {
             if (collision.CompareTag("Pipe"))
             {
-                //FindObjectsByType<Bird_Manager>().PlayerDied();
+                manager.PlayerDied();
                 Debug.Log("Death");
             }
         }
