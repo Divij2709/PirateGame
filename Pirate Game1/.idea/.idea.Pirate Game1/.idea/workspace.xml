@@ -6,23 +6,71 @@
   <component name="ChangeListManager">
     <list default="true" id="bca50913-b261-4291-a0d5-34be40230ab9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Pirate Game1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pirate Game1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/Barrel_Basic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/Barrel_Basic.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/FlappyBird_Background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/FlappyBird_Background.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/Lives_Icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/Lives_Icon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/Parrot Basic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/Parrot Basic.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/Test_Nest.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/Test_Nest.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/Test_Pillar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/Test_Pillar.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Divij/D_FlappyParrot.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Divij/D_FlappyParrot.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Divij/Prefabs/Parrot Basic.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Divij/Prefabs/Parrot Basic.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Divij/Scripts/Fly_Behaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Divij/Scripts/Fly_Behaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Divij/Scripts/Pipe_Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Divij/Scripts/Pipe_Movement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Divij/Scripts/RespawnPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Divij/Scripts/RespawnPoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/Animation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/Animation/Fly_Animation.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/Animation/Fly_Animation.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/Animation/Parrot_Fly_Sprite_Sheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/Animation/Parrot_Fly_Sprite_Sheet.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/Animation/Parrot_Fly_Sprite_Sheet_0.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/Animation/Parrot_Fly_Sprite_Sheet_0.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/Fonts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/Fonts/ThaleahFat_TTF SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/Fonts/ThaleahFat_TTF SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/Level_Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/Level_Sprites/Barrel_Basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/Level_Sprites/Barrel_Basic.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/Level_Sprites/FlappyBird_Background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/Level_Sprites/FlappyBird_Background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/Level_Sprites/Parrot Basic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/Level_Sprites/Parrot Basic.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/Level_Sprites/Test_Nest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/Level_Sprites/Test_Nest.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/Level_Sprites/Test_Pillar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/Level_Sprites/Test_Pillar.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/UI_Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/UI_Sprites/Arrow Img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/UI_Sprites/Arrow Img.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/UI_Sprites/Blue_Arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/UI_Sprites/Blue_Arrow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/UI_Sprites/Green_Arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/UI_Sprites/Green_Arrow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/UI_Sprites/Lives_Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/UI_Sprites/Lives_Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/UI_Sprites/Mouse Img 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/UI_Sprites/Mouse Img 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/UI_Sprites/Red_Arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Assets/UI_Sprites/Red_Arrow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/D_FlappyParrot.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/D_FlappyParrot.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/D_RopeSwing.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/D_RopeSwing.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Prefabs/Parrot Basic.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Prefabs/Parrot Basic.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Prefabs/Pillar_Nest.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Prefabs/Pillar_Nest.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Prefabs/RespawnPoint.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Prefabs/RespawnPoint.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Prefabs/Test_Pillar.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Prefabs/Test_Pillar.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Scripts/Bird_Manager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Scripts/Bird_Manager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Scripts/Buff_Token.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Scripts/Buff_Token.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Scripts/Fly_Behaviour.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Scripts/Fly_Behaviour.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Scripts/GameManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Scripts/GameManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Scripts/IToken.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Scripts/IToken.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Scripts/Pipe_Movement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Scripts/Pipe_Movement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Scripts/RespawnPoint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Scripts/RespawnPoint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Scripts/SceneSwapper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Divij/Scripts/SceneSwapper.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,11 +82,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Divij/Scripts/Bird_Manager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Divij/Scripts/Buff_Token.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Divij/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Divij/Scripts/IToken.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Divij/Scripts/RespawnPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Divij/RopeSwing/Scripts/Pirate_Controller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@befc7af3e8e5/Runtime/TMP/TMP_Settings.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -120,6 +165,7 @@
       <workItem from="1773964602282" duration="2161000" />
       <workItem from="1774089173956" duration="8620000" />
       <workItem from="1774153997757" duration="3086000" />
+      <workItem from="1774507278081" duration="981000" />
     </task>
     <servers />
   </component>
