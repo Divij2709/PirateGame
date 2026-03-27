@@ -1,4 +1,4 @@
-using System;
+/*using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -64,3 +64,4 @@ public class Pirate_Controller : MonoBehaviour
         rb.bodyType = RigidbodyType2D.Kinematic;
     }
 }
+*/

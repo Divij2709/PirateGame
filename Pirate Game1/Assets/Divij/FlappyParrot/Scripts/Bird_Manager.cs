@@ -14,7 +14,7 @@ namespace Divij
 
         [SerializeField] private List<GameObject> lifeIcons = new List<GameObject>();
 
-        private GameObject currentPlayer;
+        public GameObject currentPlayer;
 
         private void Start()
         {
@@ -29,10 +29,15 @@ namespace Divij
             liveCount--;
 
             UpdateLivesUI();
+            
+            //when player dies restart by using the control pop up 
+            // When permanently dead a seperate UI pops up, take the player to home screen
 
             if (liveCount > 0)
             {
                 Invoke(nameof(SpawnPlayer), 1f);
+                
+                
             }
             else
             {

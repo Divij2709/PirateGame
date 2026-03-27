@@ -22,7 +22,7 @@ namespace Divij
         {
             if (!GameManager.gameStarted) return;
             
-            if (Mouse.current.rightButton.wasPressedThisFrame)
+            if (Mouse.current.leftButton.wasPressedThisFrame)
             {
                 Debug.Log("Mouse Pressed");
                 rb.linearVelocity = Vector2.up * flySpeed;
